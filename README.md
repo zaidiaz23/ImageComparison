@@ -10,7 +10,7 @@ This project performs comparison between two images and showcase the differences
 
 ## Prerequisites
 
-- **[Python](Download Python(https://www.python.org/)** - Download and install the latest version with default settings. 
+- **[Python](https://www.python.org/)** - Download and install the latest version with default settings. 
 - **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)** - Dependency.
 
 ### Install the library Pillow with pip:
@@ -26,7 +26,7 @@ You are going to need to clone a copy of the application onto your computer to f
 If you are familiar with Git and already have it installed the easiest way to clone the repo is to run this command in your terminal.
 
 > [!IMPORTANT]
-> git clone **_HERE_**
+> git clone **_https://github.com/zaidiaz23/ImageComparison.git_**
 
 
 ## Run the code
