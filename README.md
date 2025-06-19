@@ -52,6 +52,6 @@ img2 = Image.open('Second.jpg')
 
 - If the images are identical, ```difference.getbbox()``` returns none, meaning there are no differences. If the images have differences, it returns a bounding box ((left, upper, right, lower)) that encloses all differing pixels. So ```bbox``` is used to determine whether two images have differences.
 
-- It will be saved a new image with the differences.  
+- A new image will be saved with the differences.
   ![image](https://github.com/user-attachments/assets/39006cd5-0de2-4608-8779-10ff1dc4530e)
 
