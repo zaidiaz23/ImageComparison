@@ -1,11 +1,11 @@
-
-
 # :open_file_folder: Spot the Differences
 This project performs comparison between two images and showcase the differences between them. I will be using Pillow library from Python.
 
 ## List all visual or functional differences that might affect testing outcomes or user experience. 
-- Buttons: The spacing between components are almost null. 
-- 
+- In the first image being displayed, the spacing is null between the three buttons.
+- In the second image is being shown the user’s funds (text) and Title (text) in a thin text style. So in this way users might not notice their funds in the first impression. 
+- In the second image is being displayed the title as “My Acounts” instead of “My Accounts” 
+
 
 
 ## Prerequisites
