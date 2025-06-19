@@ -15,7 +15,8 @@ This project performs comparison between two images and showcase the differences
 
 ### Install the library Pillow with pip:
 - Open the terminal and write the following command:
-pip install pillow
+
+```pip install pillow```
 
 ### Install Python extension on VSCode
 
@@ -35,11 +36,12 @@ Run the code. You'll see and image displaying the differences for the two images
 ## What does do the code?
 
 - The following script loads an image using your default viewer:
+```   
 img1 = Image.open('First.jpg')
 img2 = Image.open('Second.jpg')
+```
 
 - The followingg script returns the absolute value of the pixel-by-pixel difference between the two images.
-PIL.ImageChops.difference(image1: Image, image2: Image) → Image
-- If the images are identical, difference.getbbox() returns None, meaning there are no differences. If the images have differences, it returns a bounding box ((left, upper, right, lower)) that encloses all differing pixels. So bbox is used to determine whether two images have differences.
-- The following script shows the differences found
-- The following script saves the differences found in a new image
+```PIL.ImageChops.difference(image1: Image, image2: Image) → Image```
+
+- If the images are identical, ```difference.getbbox()``` returns none, meaning there are no differences. If the images have differences, it returns a bounding box ((left, upper, right, lower)) that encloses all differing pixels. So bbox is used to determine whether two images have differences.
